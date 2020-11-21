@@ -11,16 +11,16 @@ namespace Group_Project.Models
         public int AdminID { get; set; } //Unique ID
 
         [Required]
-        [Display(Name = "First Name")]
-        public string AdminName { get; set; } // can be displayed throughout the website, e.g in index "Welsome Zairul"
+        [Display(Name = "UserName")]
+        public string AdminUserName { get; set; } // can be displayed throughout the website, e.g in index "Welsome Zairul"
 
         [Required]
         [Display(Name = "Email Address")]
-        public string AdminGamil { get; set; } // For Login
+        public string AdminEmail { get; set; } // For Login
 
         [Required]
         [Display(Name = "Password")]
-        public string MemberPassword { get; set; } // For login 
+        public string AdminPassword { get; set; } // For login 
 
     }
 }
